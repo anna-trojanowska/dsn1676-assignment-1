@@ -21,7 +21,7 @@ html {
 
 .img-flex {
     display: block;
-    width: 100%
+    width: 100%;
 }
 
 .masthead {
@@ -48,3 +48,15 @@ h1::before, h1::after {
 	top: 3px;
 	margin: 0 15px;
 }
+
+.wanted {
+    border-image: url("../images/border.png") 30 30 30 30 stretch stretch;
+    border-width: 30px 30px 30px;
+}
+
+.reward {
+    background-color: #87714F;
+    color: #FFFFFF;
+}
+}
+    
