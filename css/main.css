@@ -5,13 +5,50 @@
 @viewport { width: device-width; scale: 1; }
 
 html {
+    background-color: #E8E5DA;
     box-sizing: border-box;
+    
     -moz-text-size-adjust: 100%;
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%;
     text-size-adjust: 100%;
+    color: #231F20;
 }
 
 *, *:before, *:after {
     box-sizing: inherit;
+}
+
+.img-flex {
+    display: block;
+    width: 100%
+}
+
+.img-border {
+    border: 1px solid;
+}
+
+.masthead {
+    background: transparent url("../images/masthead-bg.png") repeat left center;
+    text-align: center;
+}
+
+.title {
+    display: inline-block;
+    background-color: #E8E5DA; 
+    text-shadow: 3px 3px 0 #BFBFBE;
+}
+
+.logo {
+    margin: 0 0.2em 0 0;
+    width: 1.2em;
+    vertical-align: middle;
+}
+
+
+h1::before, h1::after {
+	content: url("../images/sheriff-star.png");
+	position: relative;
+	top: 3px;
+	margin: 0 15px;
 }
